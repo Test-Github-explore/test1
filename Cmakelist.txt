@@ -1,8 +1,8 @@
 cmake_minimum_required( VERSION 2.8 )
 
 # Splution(*.sln) and Project(*.vcxproj)
-project( solution )
-add_executable( project header.h source.cpp )
+project(test1)
+add_executable( project test1.c )
 
 # Set StartUp Project (Option)
 set_property( DIRECTORY PROPERTY VS_STARTUP_PROJECT "project" )
